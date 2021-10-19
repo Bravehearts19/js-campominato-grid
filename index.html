@@ -16,19 +16,47 @@
     <body>
         <!-- Inizio header -->
         <header>
+            <div class="container">
+                <div class="d-flex py-2">
+                    <div class="image_container pe-3">
+                        <img class="w-100" src="https://www.boolean.careers/images/misc/logo.png" alt="Logo Boolean">
+                    </div>
 
+                    <h1 class="fw-bold">Prato Fiorito: la Griglia</h1>
+
+                    <form class="d-flex ms-auto align-items-center">
+                        <h6 class="pe-2 m-0">Difficoltà:</h6>
+
+                        <select class="padding_select me-3" id="select_difficolta">
+                            <option value="1">Facile</option>
+                            <option value="2">Media</option>
+                            <option value="3">Difficile</option>
+                        </select>
+
+                        <button type="button"  class="btn" id="button_start_game">Avvia la partita</button>
+                    </form>
+                </div>
+            </div>
         </header>
         <!-- Fine header -->
 
         <!-- Inizio main -->
         <main>
-            
+            <div class="container">
+                <div class="padding_main">
+                    <div id="container_board">
+
+                    </div>
+                </div>
+            </div>
         </main>
         <!-- Fine main -->
 
         <!-- Inizio footer -->
         <footer>
-
+            <div class="container">
+                <p class="m-0 py-3">Made with &hearts; by <a href="#">Boolean</a></p>
+            </div>
         </footer>
         <!-- Fine footer -->
         <script type="text/javascript" src="js/main.js"></script>
